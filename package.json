@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "server": "live-server --port=80",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-alpha12"
+  }
+}
